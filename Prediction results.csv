@@ -1,0 +1,204 @@
+﻿Original 100-10,,,,,,,,,
+,,,100 genes,50 genes,20 genes,100 drivers,50 drivers,20 drivers,10 drivers
+logistic regression,Balanced accuracy ,,0.547540727,0.5,0.477365288,0.507205514,0.5,0.5,0.485980576
+,ROC AUC,,0.523809524,0.48433584,0.533756266,0.474859023,0.478305138,0.473527569,0.463580827
+,Precision,Recurrence,0.53,0,0.18,0.35,0,0,0.27
+,,No Recurrence,0.69,0.66,0.65,0.67,0.66,0.66,0.66
+,Recall,Recurrence,0.18,0,0.04,0.19,0,0,0.07
+,,No Recurrence,0.92,1,0.92,0.82,1,1,0.9
+,f1 score,Recurrence,0.26,0,0.06,0.25,0,0,0.11
+,,No Recurrence,0.79,0.8,0.76,0.74,0.8,0.8,0.76
+,,,,,,,,,
+SVM,Balanced accuracy ,,0.551535088,0.5,0.593984962,0.5,0.5,0.458255013,0.481829574
+,ROC AUC,,0.527725564,0.515977444,0.369282581,0.551456767,0.53218985,0.447525063,0.482221178
+,Precision,Recurrence,0.48,0,0.46,0,0,0.26,0.2
+,,No Recurrence,0.69,0.66,0.73,0.66,0.66,0.64,0.65
+,Recall,Recurrence,0.23,0,0.47,0,0,0.18,0.04
+,,No Recurrence,0.88,1,0.71,1,1,0.74,0.93
+,f1 score,Recurrence,0.31,0,0.47,0,0,0.21,0.06
+,,No Recurrence,0.77,0.8,0.72,0.8,0.8,0.69,0.77
+,,,,,,,,,
+Neural network,Balanced accuracy ,,0.52537594,0.523652882,0.501331454,0.516760652,0.501331454,0.48825188,0.445802005
+,ROC AUC,,0.503446115,0.514411028,0.538455514,0.50297619,0.466243734,0.466087093,0.429589599
+,Precision,Recurrence,0.43,0.37,0.34,0.41,0.34,0.32,0.17
+,,No Recurrence,0.68,0.68,0.66,0.67,0.66,0.65,0.63
+,Recall,Recurrence,0.16,0.35,0.35,0.12,0.35,0.32,0.07
+,,No Recurrence,0.89,0.7,0.65,0.91,0.65,0.66,0.82
+,f1 score,Recurrence,0.23,0.36,0.34,0.19,0.34,0.32,0.1
+,,No Recurrence,0.77,0.69,0.66,0.77,0.66,0.66,0.72
+,,,,,,,,,
+LUAD only,,,,,,,,,
+,,,100 genes,50 genes,20 genes,100 drivers,50 drivers,20 drivers,10 drivers
+Neural network,Balanced accuracy ,,0.534759358,0.472816399,0.450089127,0.381907308,0.385026738,0.5,0.518716578
+,ROC AUC,,0.573083779,0.495543672,0.46969697,0.40285205,0.330659537,0.5,0.4442959
+,Precision,Recurrence,0.35,0.27,0.24,0.14,0.16,0,0.33
+,,No Recurrence,0.72,0.68,0.67,0.63,0.62,0.7,0.71
+,Recall,Recurrence,0.36,0.32,0.27,0.14,0.18,0,0.27
+,,No Recurrence,0.71,0.63,0.63,0.63,0.59,1,0.76
+,f1 score,Recurrence,0.36,0.29,0.26,0.14,0.17,0,0.3
+,,No Recurrence,0.71,0.65,0.65,0.63,0.61,0.82,0.74
+,,,,,,,,,
+LUSC only,,,,,,,,,
+,,,100 genes,50 genes,20 genes,100 drivers,50 drivers,20 drivers,10 drivers
+Neural network,Balanced accuracy ,,0.374074074,0.433333333,0.448148148,0.481481481,0.385185185,0.52962963,0.47037037
+,ROC AUC,,0.417283951,0.385185185,0.511111111,0.481481481,0.439506173,0.562962963,0.409876543
+,Precision,Recurrence,0.22,0.25,0.29,0,0.11,0.39,0.3
+,,No Recurrence,0.54,0.6,0.61,0.63,0.58,0.67,0.62
+,Recall,Recurrence,0.27,0.2,0.27,0,0.07,0.47,0.2
+,,No Recurrence,0.48,0.67,0.63,0.96,0.7,0.59,0.74
+,f1 score,Recurrence,0.24,0.22,0.28,0,0.08,0.42,0.24
+,,No Recurrence,0.51,0.63,0.62,0.76,0.63,0.63,0.68
+,,,,,,,,,
+Ploidy,,,,,,,,,
+,,,100 genes,50 genes,20 genes,100 drivers,50 drivers,20 drivers,10 drivers
+Neural network,Balanced accuracy ,,0.543269231,0.486111111,0.528668091,0.515669516,0.410078348,0.50534188,0.5
+,ROC AUC,,0.568108974,0.480413105,0.499465812,0.50133547,0.412393162,0.483707265,0.431000712
+,Precision,Recurrence,0.39,0.32,0.4,0.38,0.27,0.35,0
+,,No Recurrence,0.69,0.65,0.67,0.67,0.57,0.66,0.66
+,Recall,Recurrence,0.5,0.22,0.26,0.19,0.43,0.22,0
+,,No Recurrence,0.59,0.75,0.8,0.85,0.39,0.79,1
+,f1 score,Recurrence,0.44,0.26,0.31,0.25,0.33,0.27,0
+,,No Recurrence,0.64,0.7,0.73,0.75,0.47,0.72,0.79
+,,,,,,,,,
+Timing,,,,,,,,,
+,,,100 genes,50 genes,20 genes,100 drivers,50 drivers,20 drivers,10 drivers
+Neural network,Balanced accuracy ,,0.528117168,0.439614662,0.505639098,0.465617168,0.50783208,0.514880952,0.463189223
+,ROC AUC,,0.501253133,0.423167293,0.515350877,0.430607769,0.502662907,0.537593985,0.443687343
+,Precision,Recurrence,0.38,0.26,0.34,0.3,0.37,0.36,0.24
+,,No Recurrence,0.68,0.62,0.67,0.64,0.67,0.67,0.64
+,Recall,Recurrence,0.35,0.26,0.37,0.35,0.12,0.33,0.12
+,,No Recurrence,0.71,0.62,0.64,0.58,0.89,0.7,0.8
+,f1 score,Recurrence,0.36,0.26,0.36,0.32,0.18,0.35,0.16
+,,No Recurrence,0.69,0.62,0.65,0.61,0.76,0.68,0.71
+,,,,,,,,,
+Cumulative,,,,,,,,,
+,,,100 genes,50 genes,20 genes,100 drivers,50 drivers,20 drivers,10 drivers
+Neural network,Balanced accuracy ,,0.475783476,0.466524217,0.530270655,0.501068376,0.490206553,0.474002849,0.519764957
+,ROC AUC,,0.538283476,0.532229345,0.502314815,0.474358974,0.458956553,0.442396724,0.488069801
+,Precision,Recurrence,0.3,0.29,0.38,0.34,0.33,0.31,0.39
+,,No Recurrence,0.64,0.64,0.68,0.66,0.65,0.64,0.67
+,Recall,Recurrence,0.26,0.24,0.43,0.44,0.26,0.35,0.22
+,,No Recurrence,0.69,0.69,0.63,0.56,0.72,0.6,0.82
+,f1 score,Recurrence,0.28,0.26,0.4,0.39,0.29,0.33,0.28
+,,No Recurrence,0.67,0.66,0.66,0.6,0.68,0.62,0.74
+,,,,,,,,,
+Cumulative LUAD only,,,,,,,,,
+,,,100 genes,50 genes,20 genes,100 drivers,50 drivers,20 drivers,10 drivers
+Neural network,Balanced accuracy ,,0.586956522,0.495059289,0.564229249,0.5,0.5,0.552371542,0.529644269
+,ROC AUC,,0.587450593,0.434288538,0.583003953,0.5,0.421442688,0.463438735,0.497529644
+,Precision,Recurrence,0.42,0.32,0.4,0,0,0.39,0.36
+,,No Recurrence,0.74,0.67,0.72,0.68,0.68,0.71,0.7
+,Recall,Recurrence,0.5,0.27,0.45,0,0,0.41,0.36
+,,No Recurrence,0.67,0.72,0.67,1,1,0.7,0.7
+,f1 score,Recurrence,0.46,0.29,0.43,0,0,0.4,0.36
+,,No Recurrence,0.7,0.69,0.7,0.81,0.81,0.7,0.7
+,,,,,,,,,
+Cumulative LUSC only,,,,,,,,,
+,,,100 genes,50 genes,20 genes,100 drivers,50 drivers,20 drivers,10 drivers
+Neural network,Balanced accuracy ,,0.423076923,0.538461538,0.673076923,0.519230769,0.5,0.5,0.5
+,ROC AUC,,0.393491124,0.473372781,0.698224852,0.547337278,0.579881657,0.402366864,0.49112426
+,Precision,Recurrence,0.25,0.38,0.58,0.36,0.33,0.33,0.33
+,,No Recurrence,0.61,0.7,0.78,0.68,0.67,0.67,0.67
+,Recall,Recurrence,0.31,0.46,0.54,0.31,0.31,0.31,0.46
+,,No Recurrence,0.54,0.62,0.81,0.73,0.69,0.69,0.54
+,f1 score,Recurrence,0.28,0.41,0.56,0.33,0.32,0.32,0.39
+,,No Recurrence,0.57,0.65,0.79,0.7,0.68,0.68,0.6
+,,,,,,,,,
+Major allele copy number,,,,,,,,,
+,,,100 genes,50 genes,20 genes,100 drivers,50 drivers,20 drivers,10 drivers
+Neural network,Balanced accuracy ,,0.523339599,0.504072682,0.466557018,0.489035088,0.477913534,0.506109023,0.498590226
+,ROC AUC,,0.544799499,0.485588972,0.464129073,0.478618421,0.473997494,0.556782581,0.520363409
+,Precision,Recurrence,0.37,0.34,0.29,0.32,0.32,0.35,0.33
+,,No Recurrence,0.68,0.67,0.64,0.66,0.64,0.67,0.66
+,Recall,Recurrence,0.39,0.54,0.25,0.23,0.47,0.32,0.16
+,,No Recurrence,0.66,0.46,0.69,0.75,0.48,0.7,0.84
+,f1 score,Recurrence,0.38,0.42,0.26,0.27,0.38,0.33,0.21
+,,No Recurrence,0.67,0.55,0.66,0.7,0.55,0.68,0.74
+,,,,,,,,,
+Minor allele copy number,,,,,,,,,
+,,,100 genes,50 genes,20 genes,100 drivers,50 drivers,20 drivers,10 drivers
+Neural network,Balanced accuracy ,,0.467183584,0.427161654,0.476268797,0.53320802,0.516447368,0.529057018,0.480889724
+,ROC AUC,,0.450971178,0.422462406,0.473370927,0.531406642,0.524592732,0.458568296,0.443687343
+,Precision,Recurrence,0.27,0.21,0.28,0.4,0.39,0.4,0.29
+,,No Recurrence,0.64,0.62,0.65,0.68,0.67,0.68,0.65
+,Recall,Recurrence,0.18,0.16,0.16,0.28,0.16,0.25,0.14
+,,No Recurrence,0.76,0.7,0.79,0.79,0.88,0.81,0.82
+,f1 score,Recurrence,0.21,0.18,0.2,0.33,0.23,0.3,0.19
+,,No Recurrence,0.7,0.66,0.71,0.73,0.76,0.74,0.73
+,,,,,,,,,
+Major & Minor copy number,,,,,,,,,
+,,,100 genes,50 genes,20 genes,100 drivers,50 drivers,20 drivers,10 drivers
+Neural network,Balanced accuracy ,,0.498746867,0.48825188,0.537045739,0.483317669,0.488565163,0.49702381,0.467653509
+,ROC AUC,,0.502349624,0.492951128,0.541510025,0.455357143,0.467418546,0.479636591,0.428023183
+,Precision,Recurrence,0.33,0.32,0.39,0.32,0.32,0.33,0.25
+,,No Recurrence,0.66,0.65,0.69,0.65,0.66,0.66,0.65
+,Recall,Recurrence,0.14,0.32,0.35,0.37,0.28,0.33,0.12
+,,No Recurrence,0.86,0.66,0.72,0.6,0.7,0.66,0.81
+,f1 score,Recurrence,0.2,0.32,0.37,0.34,0.3,0.33,0.16
+,,No Recurrence,0.75,0.66,0.7,0.62,0.68,0.66,0.72
+,,,,,,,,,
+Mutation copy number,,,,,,,,,
+,,,100 genes,50 genes,20 genes,100 drivers,50 drivers,20 drivers,10 drivers
+Neural network,Balanced accuracy ,,0.466557018,0.49318609,0.490131579,0.488565163,0.452850877,0.49702381,0.515507519
+,ROC AUC,,0.485980576,0.489505013,0.484727444,0.492089599,0.419799499,0.495927318,0.542214912
+,Precision,Recurrence,0.29,0.33,0.3,0.32,0.28,0.33,0.31
+,,No Recurrence,0.64,0.66,0.66,0.66,0.63,0.66,0.67
+,Recall,Recurrence,0.25,0.26,0.11,0.28,0.28,0.33,0.26
+,,No Recurrence,0.69,0.72,0.88,0.7,0.62,0.66,0.77
+,f1 score,Recurrence,0.26,0.29,0.16,0.3,0.28,0.33,0.31
+,,No Recurrence,0.66,0.69,0.75,0.68,0.63,0.66,0.72
+,,,,,,,,,
+Metastatic patterns,,,,,,,,,
+,,,P vs M (lung),P vs M (pancancer),P-noM vs P-M (lung),P-noM vs P-M (pancancer),Mutations correlated to metastatic burden (lung),Mutations correlated to metastatic burden (pancancer),
+Neural network,Balanced accuracy ,,0.526002506,0.529213659,0.526002506,0.516917293,0.508615288,0.504307644,
+,ROC AUC,,0.510573308,0.520598371,0.497415414,0.4589599,0.468123434,0.492872807,
+,Precision,Recurrence,0.56,0.41,0.56,0.43,0.5,0.5,
+,,No Recurrence,0.68,0.68,0.68,0.67,0.67,0.66,
+,Recall,Recurrence,0.09,0.23,0.09,0.11,0.04,0.02,
+,,No Recurrence,0.96,0.83,0.96,0.93,0.98,0.99,
+,f1 score,Recurrence,0.15,0.29,0.15,0.17,0.07,0.03,
+,,No Recurrence,0.79,0.75,0.79,0.78,0.79,0.8,
+,,,,,,,,,
+Feature selection,,,,,,,,,
+,,,100 drivers,50 drivers,20 drivers,10 drivers,5 drivers,,
+Neural network,Balanced accuracy ,,0.567512531,0.537202381,0.626488095,0.521381579,0.499686717,,
+,ROC AUC,,0.484179198,0.451597744,0.591635338,0.562969925,0.484492481,,
+,Precision,Recurrence,0.42,0.4,0.68,0.46,0.33,,
+,,No Recurrence,0.71,0.69,0.73,0.67,0.66,,
+,Recall,Recurrence,0.44,0.33,0.33,0.11,0.04,,
+,,No Recurrence,0.7,0.74,0.92,0.94,0.96,,
+,f1 score,Recurrence,0.43,0.36,0.45,0.17,0.06,,
+,,No Recurrence,0.7,0.71,0.81,0.78,0.79,,
+,,,,,,,,,
+Feature selection LUAD only,,,,,,,,,
+,,,100 drivers,50 drivers,20 drivers,10 drivers,5 drivers,,
+Neural network,Balanced accuracy ,,0.484492481,0.482620321,0.567290553,0.489304813,0.5,,
+,ROC AUC,,0.325311943,0.359625668,0.494652406,0.494652406,0.5,,
+,Precision,Recurrence,0.2,0.28,0.39,0.29,0,,
+,,No Recurrence,0.66,0.69,0.74,0.69,0.7,,
+,Recall,Recurrence,0.18,0.32,0.41,0.27,0,,
+,,No Recurrence,0.69,0.65,0.73,0.71,1,,
+,f1 score,Recurrence,0.19,0.3,0.4,0.28,0,,
+,,No Recurrence,0.67,0.67,0.73,0.7,0.82,,
+,,,,,,,,,
+Feature selection LUSC only,,,,,,,,,
+,,,100 drivers,50 drivers,20 drivers,10 drivers,5 drivers,,
+Neural network,Balanced accuracy ,,0.481481481,0.525925926,0.607407407,0.559259259,0.511111111,,
+,ROC AUC,,0.459259259,0.550617284,0.545679012,0.539506173,0.545679012,,
+,Precision,Recurrence,0.33,0.43,0.55,0.5,0.4,,
+,,No Recurrence,0.63,0.66,0.71,0.68,0.65,,
+,Recall,Recurrence,0.33,0.2,0.4,0.27,0.13,,
+,,No Recurrence,0.63,0.85,0.81,0.85,0.89,,
+,f1 score,Recurrence,0.33,0.27,0.46,0.35,0.2,,
+,,No Recurrence,0.63,0.74,0.76,0.75,0.75,,
+,,,,,,,,,
+Feature selection cumulative,,,,,,,,,
+,,,100 drivers,50 drivers,20 drivers,10 drivers,5 drivers,,
+Neural network,Balanced accuracy ,,0.474002849,0.526887464,0.565705128,0.525641026,0.487891738,,
+,ROC AUC,,0.439280627,0.489405271,0.590990028,0.550035613,0.51130698,,
+,Precision,Recurrence,0.31,0.38,0.46,0.43,0.3,,
+,,No Recurrence,0.64,0.68,0.7,0.67,0.65,,
+,Recall,Recurrence,0.35,0.35,0.33,0.17,0.13,,
+,,No Recurrence,0.6,0.7,0.8,0.88,0.85,,
+,f1 score,Recurrence,0.33,0.37,0.39,0.24,0.18,,
+,,No Recurrence,0.62,0.69,0.74,0.76,0.74,,
